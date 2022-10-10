@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>Adresna 49, Sarajevo</p>
+    <p>062222333</p>
+    <p>ime.prezime@gmail.com</p>
+    <hr>
+
+    <!-- 1 Ne zaboraviti prikazati input type color i password -->
+    <!-- 2 Ne zaboraviti prikazati action u formi koji vodi na index.html, a zatim aktivirati mailto action -->
+    <form action="mailto:m.begovic@live.com" method="post" enctype="text/plain">
+        <label>Your name: </label>
+        <input type="text" name="name"><br>
+        <label>Your email: </label>
+        <input type="email" name="email"><br>
+        <label>Your message: </label><br>
+        <textarea name="message" cols="32" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
